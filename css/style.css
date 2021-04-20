@@ -1,0 +1,524 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a,a:hover{
+	text-decoration: none;
+}
+/*=============================
+nav section code start from here
+===============================*/
+
+header{
+	position: absolute;
+	width: 100%;
+	margin-top: 12px;
+}
+.nav-link{
+	color: white !important;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.nav-link:hover{
+	background: url(../img/hover-line.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+}
+
+
+/*=============================
+banner section code start from here
+===============================*/
+
+.banner{
+	background: url(../img/banner.png);
+	height: 100vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: 
+}
+.banner-sec{
+	height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-sec h6{
+	color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.banner-sec h1{
+	color: white;
+    font-weight: 600;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.banner-sec p{
+	color: #939393;
+    font-size: 18px;
+    width: 90%;
+    margin-bottom: 50px;
+}
+
+.banner-btn button{
+	padding: 15px 30px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    position: relative;
+    z-index: 100;
+}
+
+.banner-btn .banner-btn-2 {
+	background: transparent;
+	border: 1px solid white;
+	margin-left: 15px;
+}
+
+
+
+.banner-btn button::before{
+	content: "";
+	position: absolute;
+	width: 100%;
+	background: #2ab3f9;
+	bottom: 0;
+	left: 0;
+	height: 0;
+	transition: 0.5s;
+	border-radius: 50% 50% 0% 0%;
+	z-index: -1;
+}
+
+.banner-btn button:hover::before{
+	height: 100%;
+	transition: 0.5s;
+	
+}
+/*=============================
+features section code start from here
+===============================*/
+
+.features-sec{
+	padding: 80px 0px;
+	border-bottom: 1px solid #e0e0e0;
+}
+.features-top{
+	margin-bottom: 70px;
+	text-align: center;
+}
+.features-top p{
+	color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.features-top h1{
+	color: black;
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+.feature-1{
+	text-align: center;
+}
+.feature-1 h4{
+	font-size: 22px;
+	color: black;
+	margin-top: 20px;
+	font-weight: 600;
+}
+.feature-1 i{
+	font-size: 20px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    border: 1px solid #e0e0e0;
+    color: #008ed6;
+}
+
+.feature-1 p{
+	font-size: 16px;
+	color: #939393;
+}
+
+/*=============================
+details section code start from here
+===============================*/
+
+.details-sec{
+	width: 100%;
+	padding: 80px 0px;
+}
+.right-details{
+	margin-top: 70px;
+}
+.right-details h6{
+	color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.right-details h1{
+	color: black;
+    font-weight: 600;
+    font-size: 36px;
+    
+}
+
+.right-details p{
+	font-size: 16px;
+	color: #939393;
+	width: 78%;
+	margin-bottom: 20px;
+}
+
+.right-details img{
+	padding: 25px 0px;
+}
+
+.details-list ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+.details-list ul li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+.details-list ul li i{
+	color: #008ed6;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	line-height: 30px;
+	
+}
+.details-list ul li span{
+	margin-left: 5px;
+}
+
+
+
+
+
+/*=============================
+details-2 section code start from here
+===============================*/
+
+.details-sec-2{
+	background: #f2f2f2;
+	padding: 70px 0px 50px 0px;
+}
+
+.left-details{
+	margin-top: 10px;
+}
+.left-details h6{
+	color: #008ed6;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.left-details h1{
+	color: black;
+    font-weight: 600;
+    font-size: 36px;
+    
+}
+
+.left-details p{
+	font-size: 16px;
+	color: #939393;
+	width: 78%;
+	
+}
+
+.left-details img{
+	padding: 25px 0px;
+}
+
+/*=============================
+testimonial section code start from here
+===============================*/
+
+.testi-sec{
+	width: 100%;
+	padding: 80px 0px;
+	background: url(../img/banner-2.png);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.testi-sec .col-md-6{
+	padding: 0px 40px;
+}
+.testi-1{
+	text-align: center;
+}
+.testi-1 h1{
+	color: white;
+}
+
+
+.testi-review{
+	margin-top: 20px;
+}
+.testi-review{
+	color: white;
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.buyer-info{
+	padding: 0px;
+    margin: auto;
+}
+
+.buyer-info p{
+	margin: 0px;
+    color: white;
+    font-size: 14px;
+}
+
+.buyer-info span{
+	margin: 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/*=============================
+theme-promo section code start from here
+===============================*/
+
+.theme-promo{
+	width: 100%;
+	padding: 40px 0px;
+	background: #15141a;
+}
+
+.theme-promo h1{
+	font-weight: 600;
+	font-size: 36px;
+	color: white;
+	margin: 0px;
+}
+.theme-promo h1 span{
+	color: #d3d3d3;
+	font-weight: 400;
+}
+
+/*=============================
+pricing section code start from here
+===============================*/
+
+.pricing{
+	width: 100%;
+	padding: 80px 0px;
+}
+
+.p-table{
+	text-align: center;
+    border: 1px solid #d2d2d2;
+}
+.p-header{
+	padding: 16px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.p-header h2{
+	margin: 0px;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.p-body{
+	padding: 16px;
+    border-bottom: 1px solid #d2d2d2;
+}
+.p-body h1{
+	font-size: 68px;
+    font-weight: 700;
+    position: relative;
+}
+
+.p-body p{
+	margin: 0px;
+    font-size: 18px;
+    color: #808080;
+
+}
+.p-body h1::before{
+	content: "$";
+    font-size: 30px;
+    font-weight: 600;
+    left: 78px;
+    top: 10px;
+    position: absolute;
+}
+.p-footer{
+	padding: 16px;
+}
+
+.p-footer p{
+    margin: 20px;
+    color: #808080;
+}
+.p-footer span{
+	color: #008ed6;
+	font-weight: 600;
+}
+.p-footer button{
+	padding: 10px 25px;
+    margin: 10px 0px;
+    border: 1px solid #d2d2d2;
+    background: transparent;
+    color: #008ed6;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.p-table:hover .p-header h2{
+	color: #008ed6;
+}
+
+.p-table:hover .p-body{
+	background: #008ed6;
+}
+
+.p-table:hover .p-body h1, .p-table:hover .p-body p{
+	color: white;
+}
+
+.p-table:hover .p-footer button{
+	background: #008ed6;
+	color: white;
+}
+
+/*=============================
+contact-top section code start from here
+===============================*/
+
+.contact-top{
+	width: 100%;
+	padding: 80px 0px 0px 0px;
+	background: #ededed;
+}
+
+.c-top{
+	text-align: center;
+}
+.c-top i{
+	font-size: 30px;
+    color: #008ed6;
+    margin-bottom: 16px;
+}
+.c-top p{
+	font-size: 18px;
+    color: #a0a0a0;
+    margin: 0px;
+}
+.c-top .c-top-extra{
+	margin: 0px 114px;
+}
+
+/*=============================
+contact-form section code start from here
+===============================*/
+
+.contact-form{
+	width: 50%;
+    margin: auto;
+    margin-top: 150px;
+    background: #15141a;
+    padding: 63px;
+}
+
+.form-control{
+	color: white !important;
+    background: transparent !important;
+    margin-bottom: 15px !important;
+}
+.contact-right{
+	text-align: right;
+}
+.form-group textarea{
+	padding-bottom: 86px;
+}
+
+.contact-right input{
+	padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: #008ed6;
+}
+
+.map{
+	 margin-top: -90px;
+}
+.map-design{
+	z-index: 4;
+}
+
+/*=============================
+footer section code start from here
+===============================*/
+
+.footer-sec{
+	background: #15141a;
+    padding: 20px;
+    text-align: center;
+}
+.footer-icons{
+	margin-top: 15px;
+}
+.footer-icons i{
+	color: white;
+    margin: 0px 5px;
+    font-size: 18px;
+}
+
+
+.footer-icons i:hover{
+	color: #008ed6;
+	transition: 0.5s;
+	transform: rotate(360deg);
+}
+.footer-sec p{
+	color: white;
+	margin-top: 5px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
